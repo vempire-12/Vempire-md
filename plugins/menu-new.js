@@ -39,7 +39,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363348739987203@newsletter',
+                newsletterJid: '120363354023106228@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -51,7 +51,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yj7zp0.png' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/SXYjYQzZ/shaban-md.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
